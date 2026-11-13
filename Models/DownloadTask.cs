@@ -8,7 +8,7 @@ public enum TaskStatus
     Failed
 }
 
-// TODO 1: Модель задания загрузки с URL и статусом.
+// TODO 1: Модель задания загрузки с URL и статусом
 public sealed class DownloadTask
 {
     public int Id { get; init; }
